@@ -6,6 +6,8 @@ def pro(p,q):
       return p*q
 def div(p,q):
       return p/q
+def invalid():
+      print("Invalid Input")
       
 print("Enter the operation to be performed : ")
 print("a. Sum")
@@ -19,16 +21,21 @@ var2=int(input("Enter the second number : "))
 
 if(choice=='a'):
         fs=add(var1,var2)
+        print(fs)
         
-if(choice=='s'):
+elif(choice=='s'):
         fs=sub(var1,var2)
+        print(fs)
 
-if(choice=='m'):
+elif(choice=='m'):
         fs=pro(var1,var2)
-
-if(choice=='d'):
+        print(fs)
+        
+elif(choice=='d'):
         fs=div(var1,var2)
+        print(fs)
+else:
+      invalid()
 
-print(fs)
         
 
