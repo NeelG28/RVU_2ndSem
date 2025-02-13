@@ -1,0 +1,20 @@
+hello welcome to learning vim
+to exit edit mode press esc
+
+
+to save file type ':wq'
+to close file type ':q!'
+
+Q3.
+A3.(a)to delete letter, move the cursor to the letter to be deleted and type 'x'
+   (b)to delete word, move the cursor to the first letter of the word to deleted and type 'dw'
+        'hey how are you' word to be deleted is hey
+         how are you
+   (c)to delete sentence, move the cursor to the first letter of the sentence to be deleted and type 'd$'
+         
+Q4.
+A4.to replace a word with another move the cursor to the first letter of the word and type 'R' and type the new word
+
+3. thee kids are playing in thee playground
+  modified : the kids are playing in the playground
+     
