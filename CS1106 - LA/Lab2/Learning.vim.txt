@@ -17,4 +17,5 @@ A4.to replace a word with another move the cursor to the first letter of the wor
 
 3. thee kids are playing in thee playground
   modified : the kids are playing in the playground
+[code used ':19,20s/thee/the/g']
      
