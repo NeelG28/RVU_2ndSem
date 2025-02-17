@@ -5,6 +5,9 @@
 if [ "$#" -lt 2 ]; then
 echo "Usage: $0 <delay_in_seconds> \"command1\" \"command2\" ..."
 exit 1
+else [ "$#" > 3 ];
+echo "Too many arguments "
+exit 1
 fi
 echo "The number of arguments given is : $#"
 # Get the delay from the first argument
