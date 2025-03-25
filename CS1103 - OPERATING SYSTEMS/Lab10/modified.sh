@@ -32,10 +32,10 @@ count(){
       echo "Number of entries : "
       ls -l | grep -c "$pat"
 }
-shellno(){
+exeno(){
      read -p "Enter Directory : " pat
-     echo "Number of shell scripts in $pat : "
-     ls -l $pat | grep -c ".sh"
+     echo "Number of executable files in $pat : "
+     ls -l $pat | grep -c ".exe"
 }
 # Main menu for user interaction
 echo "Piping Commands Manager"
@@ -43,7 +43,7 @@ echo "1. List contents of the current directory"
 echo "2. Filter and sort directory contents"
 echo "3. Search for a given file "
 echo "4. Count number of files and directories " 
-echo "5. Count number of shell scripts in a given directory "
+echo "5. Count number of executable files in a given directory "
 echo "6. Exit"
 # Loop until the user chooses to exit
 while true; do
@@ -60,7 +60,7 @@ while true; do
               ;;
            4) count
               ;;
-           5) shellno
+           5) exeno
               ;;
            6) # Exit the script
               echo "Exiting the Piping Commands Manager. Goodbye!"
