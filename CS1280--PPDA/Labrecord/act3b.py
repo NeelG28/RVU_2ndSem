@@ -11,6 +11,6 @@ def dict_input():
 
     
     
-    print(f"Merged Dicted : {merge_dict}")
+    print(f"Merged Dictionary : {merge_dict}")
 
 dict_input()
