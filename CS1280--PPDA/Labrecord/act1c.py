@@ -6,7 +6,7 @@ def find_largest():
     num4=float(input("Enter fourth number : "))
     num5=float(input("Enter fifth number : "))
     
-    largest=0
+    largest=num1
     if num2 > largest:
         largest = num2
     if num3 > largest:
@@ -16,6 +16,6 @@ def find_largest():
     if num5 > largest:
         largest = num5
     
-    print(f"the largest number is : {largest}")
+    print(f"The largest number is : {largest}")
 
 find_largest()
